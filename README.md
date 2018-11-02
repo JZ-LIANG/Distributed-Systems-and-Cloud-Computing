@@ -8,11 +8,12 @@ The goal of this course is to provide a comprehensive view on recent topics and 
 ## Notebooks
 ### [Introduction](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab1%20-%20Introduction.ipynb)
 <img align="right" src="images/intro_img.png" width="300">
-* The aim of this introductory lab is to:
-* Gain familiarity with Juypter Notebooks
-* Acquire basic knowledge about Python: Pandas, Matplotlib, Numpy
-* Gain familiarity with the PySpark and how to interact with the HDFS
-* Gain hands-on experience with two distributed codes: 
+
+ * The aim of this introductory lab is to:
+ * Gain familiarity with Juypter Notebooks
+ * Acquire basic knowledge about Python: Pandas, Matplotlib, Numpy
+ * Gain familiarity with the PySpark and how to interact with the HDFS
+ * Gain hands-on experience with two distributed codes: 
    * word count 
    * analysis of night flights
 
