@@ -9,30 +9,27 @@ The goal of this course is to provide a comprehensive view on recent topics and 
 ### [Introduction](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab1%20-%20Introduction.ipynb)
 <img align="right" src="images/intro_img.png" width="300">
 
- * The aim of this introductory lab is to:
- * Gain familiarity with Juypter Notebooks
- * Acquire basic knowledge about Python: Pandas, Matplotlib, Numpy
+In this introductory laboratory:
+ * Acquire Pandas, Matplotlib, Numpy
  * Gain familiarity with the PySpark and how to interact with the HDFS
  * Gain hands-on experience with two distributed codes: 
    * word count 
    * analysis of night flights
 
 
-The aim of this introductory lab is to get familiar with
-   the Jupyter notebooks, 
-   python and its modules (Pandas, Matplotlib, Numpy). 
-   PySpark and how to interact with the HDFS, together with two examples of distributed code: word count and an analysis of night flights.
-
-### [Gradient Descent](https://)
+### [Distributed Gradient Descent](https://)
 <p align="center">
-<img src="images/sgd_img.png" width="640">
+<img src="images/gradient_img.png" width="640">
 </p>
 
-This notebook contains multiple implementations of the gradient descent algorithm. At first, the results obtained using the scipy library are observed, then the algorithm is compared with a numpy implementation of batch gradient descent.
+This notebook contains multiple implementations of the gradient descent algorithm. 
+ * generate large set of noisy points for regression and use Scipy lib to obtaine a baseline regression result.
+ * a numpy implementation of batch gradient descent.
+ * a numpy implementation of stochastic gradient descent and mini-batch stocastic gradient descent.
+ * a distributed version of mini-batch gradient descent implemented using PySpark.
 
-Furthermore, stochastic gradient descent and mini-batch stocastic gradient descent are implemented and compared with the previous one. A deep analysis is performed regarding how each algorithm's results change with parameters such as the learning rate and the number of iterations.
+Beside i also compare those 4 implementations with the baseline from Scipy. A deep analysis is performed regarding how each algorithm's results change with parameters such as the learning rate and the number of iterations.  Finally an analysis of the performance of all the algorithms in terms of dataset size.
 
-Finally, a distributed version of mini-batch gradient descent is implemented using PySpark and its followed by an analysis of the performance of all the algorithms in terms of dataset size.
 
 ### [k-Means](https:)
 <img align="right" src="images/kmeans_img.png" width="300">
