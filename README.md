@@ -7,7 +7,7 @@ The goal of this course is to provide a comprehensive view on recent topics and 
 ***
 ## Notebooks
 ### [Introduction](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab1%20-%20Introduction.ipynb)
-<img align="right" src="images/intro_img.png" width="300">
+<img align="right" src="images%20/intro_img.png" width="300">
 
 In this introductory laboratory:
  * Acquire Pandas, Matplotlib, Numpy
@@ -19,7 +19,7 @@ In this introductory laboratory:
 
 ### [Distributed Gradient Descent](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab2%20-%20Distributed%20Gradient%20Descent.ipynb)
 <p align="center">
-<img src="images/gradient_img.png" width="640">
+<img src="images%20/gradient_img.png" width="640">
 </p>
 
 This notebook contains multiple implementations of the gradient descent algorithm. 
