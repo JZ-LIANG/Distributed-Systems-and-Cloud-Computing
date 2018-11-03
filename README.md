@@ -17,7 +17,7 @@ In this introductory laboratory:
    * analysis of night flights
 
 
-### [Distributed Gradient Descent](https://)
+### [Distributed Gradient Descent](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab2%20-%20Distributed%20Gradient%20Descent.ipynb)
 <p align="center">
 <img src="images/gradient_img.png" width="640">
 </p>
