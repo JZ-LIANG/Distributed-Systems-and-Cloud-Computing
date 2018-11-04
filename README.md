@@ -31,7 +31,7 @@ This notebook contains multiple implementations of the gradient descent algorith
 Beside i also compare those 4 implementations with the baseline from Scipy. A deep analysis is performed regarding how each algorithm's results change with parameters such as the learning rate and the number of iterations.  Finally an analysis of the performance of all the algorithms in terms of dataset size.
 
 
-### [Lab3 Distributed k-Means](https:)
+### [Lab3 Distributed k-Means](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab3%20Distributed%20k-Means.ipynb)
 <img align="right" src="images%20/k-means_img.png" width="300">
 
 This notebook is mainly about implementation and analysis the k-means algorithm on a 2D dataset:
