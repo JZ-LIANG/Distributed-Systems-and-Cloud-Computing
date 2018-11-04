@@ -6,41 +6,42 @@ The goal of this course is to provide a comprehensive view on recent topics and 
 
 ***
 ## Notebooks
-### [Introduction](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab1%20-%20Introduction.ipynb)
+### [Lab1 Introduction](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab1%20-%20Introduction.ipynb)
 <img align="right" src="images%20/intro_img.png" width="250">
 
 In this introductory laboratory:
  * Acquire Pandas, Matplotlib, Numpy
  * Gain familiarity with the PySpark and how to interact with the HDFS
- * Gain hands-on experience with two distributed codes: 
-   * word count 
-   * analysis of night flights
+ * Gain hands-on experience with two Distributed codes: 
+   * Word Count 
+   * Analysis of night flights
 
 
-### [Distributed Gradient Descent](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab2%20-%20Distributed%20Gradient%20Descent.ipynb)
+### [Lab2 Distributed Gradient Descent](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab2%20-%20Distributed%20Gradient%20Descent.ipynb)
 <p align="center">
 <img src="images%20/gradient_img.png" width="600">
 </p>
 
 This notebook contains multiple implementations of the gradient descent algorithm. 
- * generate large set of noisy points for regression and use Scipy lib to obtaine a baseline regression result.
- * a numpy implementation of batch gradient descent.
- * a numpy implementation of stochastic gradient descent and mini-batch stocastic gradient descent.
- * a distributed version of mini-batch gradient descent implemented using PySpark.
+ * Generate synthetic data for a regression problem, and use Scipy lib to obtaine a baseline regression result.
+ * A Numpy implementation of Batch Gradient Descent.
+ * A Numpy implementation of Stochastic Gradient Descent and Mini-Batch Stocastic Gradient Descent.
+ * A Distributed version of Mini-Batch Gradient Descent implemented using PySpark.
 
 Beside i also compare those 4 implementations with the baseline from Scipy. A deep analysis is performed regarding how each algorithm's results change with parameters such as the learning rate and the number of iterations.  Finally an analysis of the performance of all the algorithms in terms of dataset size.
 
 
-### [k-Means](https:)
-<img align="right" src="images/kmeans_img.png" width="300">
+### [Lab3 Distributed k-Means](https:)
+<img align="right" src="images%20/k-means_img.png" width="300">
 
-As for the previous notebook, this one starts by analyzing the k-means algorithm and its implementation, then it is tested on a generated 2D dataset to have better visualization and it is compared with the sklearn implementation.
+This notebook is mainly about implementation and analysis the k-means algorithm on a 2D dataset:
+ * A Numpy implementation of Vanilla k-means.
+ * Analysis of algorithm convergence by Heterogeneity (total within Sum of Squares), and implementation the k -means++ technique for smart centroid initialization and allows to improve the quality of the local optima.
+ * Implement the Elbow Method to help find the optimal value of the number of clusters.
+ * A Distributed version of k-means is implemented with PySpark, the distributed version is analyzed and compared with the serial implementation.
 
-An analysis of convergence of datasets of different shapes underlines the important of centroids initialization and introduces the k-means++ technique for smart centroid initialization that is implemented too. Moreover, the elbow method to find the optimal value of the number of clusters is discussed and implemented.
 
-Finally, a distributed version of k-means is implemented with PySpark, the new algorithm is analyzed and compared with the serial implementation.
-
-### [Flights Data Analysis](https:)
+### [Lab4 Flights Data Analysis](https:)
 <img align="left" src="images/flights_img.png" width="300">
 
 The last notebook introduces the DataFrame API and its advantages with respèct to RDDs, then, DataFrames are built starting from a structured file and from an RDD.
