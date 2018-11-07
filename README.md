@@ -49,6 +49,10 @@ This notebook is mainly about using the DataFrame API and its advantages with re
 A hand-on experience is the analysis of flights data using SparkSQL. Data exploration is divided in three main sections: basic queries, flight volume statistics and additional queries. Data visualization is performed using the seaborn module.
 
 
+
+
+
+
 ***
 ## Course Notes
 Here follows a simplified table of contents of my notes for the CLOUDS course.
