@@ -42,13 +42,12 @@ This notebook is mainly about implementation and analysis the k-means algorithm 
 
 
 ### [Lab4 Flights Data Analysis](https:)
-<img align="left" src="images/flights_img.png" width="300">
+<img align="left" src="images/sparkql_img.png" width="300">
 
-The last notebook introduces the DataFrame API and its advantages with respèct to RDDs, then, DataFrames are built starting from a structured file and from an RDD.
+This notebook is mainly about using the DataFrame API and its advantages with respect to RDDs, then, DataFrames are built starting from a structured file and from an RDD.
 
-This section is followed by the analysis of flights data using SparkSQL. Data exploration is divided in three main sections: basic queries, flight volume statistics and additional queries. Data visualization is performed using the seaborn module.
+A hand-on experience is the analysis of flights data using SparkSQL. Data exploration is divided in three main sections: basic queries, flight volume statistics and additional queries. Data visualization is performed using the seaborn module.
 
-The notebook ends with a bonus question regarding the analysis of other datasets and their relation with the used one.
 
 ***
 ## Course Notes
