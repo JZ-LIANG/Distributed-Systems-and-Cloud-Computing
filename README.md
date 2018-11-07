@@ -41,8 +41,8 @@ This notebook is mainly about implementation and analysis the k-means algorithm 
  * A Distributed version of k-means is implemented with PySpark, the distributed version is analyzed and compared with the serial implementation.
 
 
-### [Lab4 Flights Data Analysis](https:)
-<img align="left" src="images/sparkql_img.png" width="300">
+### [Lab4 Flights Data Analysis](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab4%20-%20SparkSQL%20Flights%20Data%20Analysis.ipynb)
+<img align="left" src="images%20/sparkql_img.png" width="300">
 
 This notebook is mainly about using the DataFrame API and its advantages with respect to RDDs, then, DataFrames are built starting from a structured file and from an RDD.
 
