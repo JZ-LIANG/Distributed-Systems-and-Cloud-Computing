@@ -42,7 +42,7 @@ This notebook is mainly about implementation and analysis the k-means algorithm 
 
 
 ### [Lab4 Flights Data Analysis](https://github.com/JZ-LIANG/Distributed-Systems-and-Cloud-Computing/blob/master/notebooks/Lab4%20-%20SparkSQL%20Flights%20Data%20Analysis.ipynb)
-<img align="left" src="images%20/Sparkql_img.png" width="300">
+<img align="left" src="images%20/sparkql_img.png" width="300">
 
 This notebook is mainly about study the DataFrames API in Spark that allow developers to impose a structure on a distributed collection of data, allowing higher-level abstraction. We learn how to use DataFrame API and its advantages to manipulate distributed, structured data.
 
