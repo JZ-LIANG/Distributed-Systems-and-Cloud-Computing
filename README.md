@@ -1,5 +1,5 @@
 # Distributed Systems and Cloud Computing [CLOUDS]
-This repository contains my project notebooks for the Distributed Systems and Cloud Computing course at EURECOM.
+This repository contains my project notebooks for the Distributed Systems and Cloud Computing.
 
 ### Course abstract
 The goal of this course is to provide a comprehensive view on recent topics and trends in distributed systems and cloud computing. We will discuss the software techniques employed to construct and program reliable, highly-scalable systems. We will also cover architecture design of modern datacenters that constitute a central topic of the cloud computing paradigm. The course is complemented by a number of lab sessions to the design of scalable algorithms and get hands-on experience with Apache Spark.
@@ -48,45 +48,3 @@ This notebook is mainly about study the DataFrames API in Spark that allow devel
 
 A hand-on experience is the analysis of flights data using SparkSQL. Data exploration is divided in three main sections: basic queries, flight volume statistics and additional queries. Data visualization is performed using the seaborn module.
 
-
-
-
-***
-## Course Notes
-Here follows a simplified table of contents of my notes for the CLOUDS course.
-
- * Scalable Algorithm Design 
-   * Introduction
-   * Key Principles
-   * The Programming Model
-   * Basic Design Patterns
- * Hadoop Internals
-   * Hadoop Distributed File System
-   * Hadoop MapReduce
- * Apache Spark Internals
-   * Introduction and Motivations
-   * Anatomy of a Spark Application
-   * Spark Deployments
-   * Resilient Distributed Datasets
-   * Spark Word Count
- * Cluster Schedulers
-   * Cluster Scheduling Principles
-   * Taxonomy of Scheduling Design
-   * Schedulers Architectures
-   * YARN
-   * MESOS
-   * BORG
- * SparkSQL
-   * Relational Algebra
-   * DataSource and DataFrame API
-   * SparkSQL Architecture
- * Distributed Storage Systems
-   * The CAP Theorem
-   * Amazon Dynamo
-   * Apache HBase
-   * Apache Cassandra
- * Coordinating Distributed Systems
-   * Two-phase Commit
-   * Paxos
-   * Raft
-   * Zoe and ZooKeeper 
