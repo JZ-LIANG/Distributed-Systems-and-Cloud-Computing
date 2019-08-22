@@ -1,8 +1,6 @@
 # Distributed Systems and Cloud Computing [CLOUDS]
 This repository contains my project notebooks for the Distributed Systems and Cloud Computing.
 
-### Course abstract
-The goal of this course is to provide a comprehensive view on recent topics and trends in distributed systems and cloud computing. We will discuss the software techniques employed to construct and program reliable, highly-scalable systems. We will also cover architecture design of modern datacenters that constitute a central topic of the cloud computing paradigm. The course is complemented by a number of lab sessions to the design of scalable algorithms and get hands-on experience with Apache Spark.
 
 ***
 ## Notebooks
